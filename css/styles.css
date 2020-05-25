@@ -1,0 +1,467 @@
+/* CSS USING tag */
+
+body{
+  margin: 0px;
+}
+
+.myself h1{
+  font-family: 'Teko', sans-serif;
+  font-size: 4rem;
+  color:white;
+  text-align: center;
+}
+
+.myself p{
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+
+/* css styling based on id */
+
+/* header section */
+#header{
+  background-image: url(../image/poster.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#top-middle{
+  background-color: white;
+}
+
+#Experience{
+  background-color: #ff4c68;
+}
+
+#contact{
+  background-color: #3f3f44;
+}
+
+/* CSS USING CLASS */
+
+/* it is to extend the size of the bg where the nav scetion resides */
+.navbg{
+  background-color: black;
+  opacity: 30%;
+}
+
+.divbg{
+  padding: 1rem 2rem;
+}
+
+/* home porfolio and Contact bg */
+.nav-link{
+  text-transform:  uppercase;
+  color: white;
+  font-size: 20px;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 600;
+  transition: all ease 0.5s;
+  margin-right: 1.25rem;
+}
+
+/* home porfolio and Contact bg hover */
+.nav-link:hover{
+  background-color: #f57b51;
+  opacity: 80%;
+}
+
+
+/* Navigation Toggler color change */
+/* hamburger bg color */
+.custom-toggler.navbar-toggler {
+	border-color:white;
+  border-width: medium;
+}
+/* Setting the stroke to black using rgb values (255,102,203) */
+
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* giving the margin & hr for top section */
+.myself{
+  padding-top: 20rem;
+  text-shadow: 2px 2px black;
+}
+
+.hr{
+  border-style: none;
+  border-top-style: solid;
+  border-width: 5px;
+  border-color:white;
+  width:40%;
+  text-align: center;
+}
+/* giving the margin & hr for top section */
+
+/* styling top middle container */
+.mycontainer{
+  text-align: center;
+  margin: 4rem 12rem;
+}
+
+/* for all para in mycontainer div */
+.mycontainer p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+.lead{
+  font-size: 1.3rem;
+}
+
+.hr1{
+  border-style: none;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color:black;
+}
+
+.mycontainer h2{
+  font-family: 'Merriweather', serif;
+  color:#007892;
+}
+
+
+.abtme-container h4{
+  font-family: 'Merriweather', serif;
+  text-align: left;
+  color:#007892;
+}
+
+.abtme-container p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  letter-spacing: 0.05rem;
+}
+
+.details-p{
+  font-weight: bold;
+}
+
+
+/* ecperience secion */
+
+.exp-container{
+  text-align: center;
+  margin: 4rem 12rem;
+  padding: 3.5rem;
+  color: #fff;
+}
+
+.exp-container h2{
+  font-family: 'Merriweather', serif;
+}
+
+.exp-container p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.row1{
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.exp-container h6{
+  font-weight: bold;
+}
+
+.hr-pink{
+  border-style: none;
+  border-top-style: solid;
+  border-width: 2px;
+  border-color:white;
+}
+
+.row1 .wrkexp-p{
+  font-size: 1rem;
+}
+
+.row1 .edu-val-p{
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+
+/* Abilities section */
+.abilities-container{
+  text-align: center;
+  margin: 4rem 12rem;
+  padding: 3.5rem;
+}
+
+.abilities-container h2{
+  font-family: 'Merriweather', serif;
+}
+
+.lead-ability{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.abilities-container h4{
+  text-align: left;
+}
+
+.ability-p1 , .ability-p{
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.rating{
+  display: inline-block;
+  padding: 1rem 0rem;
+}
+
+/* contact section */
+.contact-container{
+  background-color: #3f3f44;
+  color: white;
+  text-align: center;
+  margin: 0rem 12rem;
+  padding: 3.5rem;
+}
+
+
+.favicon-img{
+  text-align: left;
+  padding: 0.6rem;
+}
+
+
+.contact-p{
+  padding: 0rem 0.5rem;
+  color: white;
+}
+
+.contact-container .favcon-val{
+  padding-left: 0px;
+  text-align: left;
+}
+
+
+
+@media (min-width: 991px) and (max-width: 1060px){
+  .abilities-container{
+    padding: 0px;
+  }
+
+  .contact-p{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1155px){
+  .myimg{
+      height: 200px;
+      width: 200px;
+    }
+}
+
+
+/* styling top middle container */
+@media (max-width: 990px){
+  /* Top banner Name */
+  .myself p{
+    font-size: 1rem;
+  }
+
+/* Resizing the about me and details section size change for mobile */
+  .mycontainer{
+    margin: 4rem;
+  }
+
+  .abtme-container{
+    padding: 2rem;
+  }
+
+  .mycontainer h2{
+    font-size: 2rem;
+  }
+
+  .mycontainer .lead{
+    font-size: 1rem;
+  }
+
+  .abtme-container h4{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .abtme-container p{
+    text-align: center;
+    font-size: 1rem;
+  }
+
+.myimg{
+    height: 300px;
+    width: 300px;
+  }
+
+/* Resizing the expirence and education section size change for mobile */
+  .exp-container{
+    margin: 4rem 0rem;
+  }
+
+  .exp-container h2{
+    font-size: 2rem;
+  }
+
+  .exp-container p{
+    font-size: 1rem;
+  }
+
+  .row1{
+    padding: 1rem 0rem;
+  }
+
+  .row1 h4{
+    font-size: 1.5rem;
+  }
+
+  .row1 h6{
+    font-size: 1.2rem;
+  }
+
+  .row1 .wrkexp-p{
+    font-size: 1rem;
+  }
+
+  .row1 .edu-val-p{
+    font-size: 1.1rem;
+  }
+
+
+  /* abilities container */
+  .abilities-container{
+    margin: 4rem 0rem;
+  }
+
+  /* Contact container */
+  .contact-container{
+    margin: 0rem;
+  }
+
+
+}
+
+
+@media (max-width: 767px){
+  .abilities-container h4{
+    text-align: center;
+  }
+
+  .ability-p,.ability-p1{
+    text-align: center;
+  }
+}
+
+/* styling top middle container */
+@media (max-width: 500px){
+/* Resizing the bg image */
+
+  #header{
+    background-image: url(../image/poster.jpg);
+    background-size: 100% 50%;
+  }
+
+
+/* Top banner Name */
+  .myself{
+    padding-top: 10rem;
+  }
+
+  .myself h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .myself p{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+/* Resizing the about me and details section size change for mobile */
+  .mycontainer{
+    margin: 2rem 2rem;
+  }
+
+  /* .abtme-container{
+    padding: 1.5rem;
+  } */
+
+  .mycontainer h2{
+    font-size: 2rem;
+  }
+
+  .mycontainer .lead{
+    font-size: 1rem;
+  }
+
+  .abtme-container h4{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .abtme-container p{
+    text-align: center;
+    font-size: 1rem;
+  }
+
+.myimg{
+    height: 250px;
+    width: 250px;
+  }
+
+/* Resizing the expirence and education section size change for mobile */
+  .exp-container{
+    margin: 2rem 0rem;
+  }
+
+  .exp-container h2{
+    font-size: 2rem;
+  }
+
+  .exp-container p{
+    font-size: 1rem;
+  }
+
+  .row1{
+    padding: 1rem 0rem;
+  }
+
+  .row1 h4{
+    font-size: 1.5rem;
+  }
+
+  .row1 h6{
+    font-size: 1.3rem;
+  }
+
+  .row1 .wrkexp-p{
+    font-size: 1rem;
+  }
+
+  /* abilities container */
+  .abilities-container{
+    margin: 2rem 0rem;
+  }
+
+  .rating{
+    padding: 0rem;
+  }
+
+  /* Contact container */
+  .contact-container{
+    margin: 0rem;
+  }
+
+}
