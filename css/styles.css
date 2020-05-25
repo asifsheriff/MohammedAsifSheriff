@@ -369,7 +369,7 @@ body{
 /* Resizing the bg image */
 
   #header{
-    background-image: url(../image/poster.jpg);
+    background-image: url(../image/poster-mob.jpg);
     /* background-size: 100% 50%; */
   }
 
