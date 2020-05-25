@@ -368,10 +368,10 @@ body{
 @media (max-width: 500px){
 /* Resizing the bg image */
 
-  #header{
+  /* #header{
     background-image: url(../image/poster.jpg);
     background-size: 100% 50%;
-  }
+  } */
 
 
 /* Top banner Name */
@@ -462,6 +462,10 @@ body{
   /* Contact container */
   .contact-container{
     margin: 0rem;
+  }
+
+  .contact-p{
+    font-size: 0.8rem;
   }
 
 }
